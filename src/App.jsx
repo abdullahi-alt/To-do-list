@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Home from './Home'
+import Navbar from './Navbar'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -10,6 +11,7 @@ function App() {
   return (
     
     <>
+    <Navbar/>
     <Home/>
       <div>
         <a href="https://vite.dev" target="_blank">
